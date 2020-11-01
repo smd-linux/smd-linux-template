@@ -22,8 +22,8 @@ read commitMessage
 # commit to local repository with message
 git commit -m "$commitMessage"
 
-read -p "Enter branch name [master]: " branch
-branch=${branch:-master}
+read -p "Enter branch name [main]: " branch
+branch=${branch:-main}
 
 # push local files to github
 git push -u origin $branch

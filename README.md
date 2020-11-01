@@ -1,2 +1,2 @@
 # smd-linux-template
-Template Repository
+Template for Repositories
